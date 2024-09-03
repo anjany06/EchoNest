@@ -1,5 +1,5 @@
 body{
-  background: #3399ff;
+  background: #ffffff;
 }
 
 
@@ -77,4 +77,8 @@ body{
   100%{
     transform: scale(0.8);
   }
+}
+
+nav .navbar li{
+  list-style-type: none;
 }

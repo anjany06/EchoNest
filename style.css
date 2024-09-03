@@ -1,3 +1,8 @@
+*{
+  margin : 0;
+  padding :0;
+  box-sizing: border-box;
+}
 body{
   background: #ffffff;
 }
@@ -78,7 +83,90 @@ body{
     transform: scale(0.8);
   }
 }
+nav{
+  display : flex;
+  justify-content: space-around;
+  align-items : center;
+  margin : 1.2rem 0;
+  padding : 1rem 1 rem;
+  font-family: 'jua',sans-serif;
+  color : #00D1FF;
 
+
+}
+.logo{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 2.5rem;
+  padding : 0.5rem 0;
+  font-weight: 500;
+}
+nav .logo i {
+  font-size: 2.5rem;
+  margin-right : 0.5rem;
+}
+.navbar ul{
+  display : flex;
+  justify-content: space-between;
+  align-items : center;
+  font-size: 1.3rem;
+}
 nav .navbar li{
   list-style-type: none;
+  margin-left : 3rem;
+}
+
+.btn button{
+  padding : 0.5rem 1.2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 30px;
+  margin : 0 1.2rem;
+}
+.btn .join{
+  background-color: #00D1FF;
+  color  : white;
+  padding : 0.5rem 1.5rem;
+  border : 3.5px solid #00D1FF;
+}
+.btn .contactUs{
+  border : 3.5px solid #00D1FF;
+  color  : #00D1FF;
+  background-color: #ffffff;
+}
+section{
+  height  : 100vh;
+  width : 100%;
+}
+#home .container{
+  width : 100%;
+  display: flex;
+  margin : 4rem 4.5rem;
+}
+.text-container{
+  max-width : 60%;
+}
+.text-container h1{
+  font-size: 4rem;
+  font-family: 'Racing Sans one',sans-serif;
+  font-weight: 300;
+  width : 70%;
+}
+.text-container p{
+  width : 65%;
+  font-size: 1.5rem;
+  font-family: 'Roboto',sans-serif;
+}
+.image-container{
+  max-width: 40%;
+}
+.buy button{
+  font-family: 'Ramabhadra',sans-serif;
+  padding : 0.2rem 4.3rem;
+  font-size: 2rem;
+  border: none;
+  border-radius: 50px;
+  color: #ffffff;
+  background-color: #00AA95;
 }

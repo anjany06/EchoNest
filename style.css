@@ -139,27 +139,53 @@ section{
   height  : 100vh;
   width : 100%;
 }
+#home{
+  height : 100vh;
+}
 #home .container{
-  width : 100%;
+ 
+  max-width : 100%;
   display: flex;
-  margin : 4rem 4.5rem;
+  margin-top : 4rem;
+  margin-left : 4.5rem;
+  margin-right : 4.5rem;
+  margin-bottom: 0;
+  overflow: hidden;
 }
 .text-container{
-  max-width : 60%;
+  max-width : 50%;
+
 }
 .text-container h1{
   font-size: 4rem;
   font-family: 'Racing Sans one',sans-serif;
   font-weight: 300;
-  width : 70%;
+  max-width : 100%;
+  color : #00D1FF;
+
 }
 .text-container p{
-  width : 65%;
-  font-size: 1.5rem;
+  max-width : 70%;
+  font-size: 1.4rem;
   font-family: 'Roboto',sans-serif;
+  margin-top : 0.5rem;
+  margin-bottom: 0;
+  color : #34DAFF;
 }
 .image-container{
   max-width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom : 50px;
+  margin : 0 auto;
+}
+.buy{
+  display: flex;
+  align-items: center;
+  margin-top : 1.5rem;
+  margin-bottom: 0;
 }
 .buy button{
   font-family: 'Ramabhadra',sans-serif;
@@ -169,4 +195,42 @@ section{
   border-radius: 50px;
   color: #ffffff;
   background-color: #00AA95;
+}
+.buy i {
+  font-size : 4rem;
+  margin-left : 2rem;
+  color: #00AA95;
+}
+.down-bar{
+  height : 15%;
+  max-width : 80%;
+  margin : 0 auto;
+  background-color: #00DFC4;
+  border: none;
+  display: flex;
+  align-items: center;
+  padding : 1.5rem 0.5rem;
+  border-radius: 50px;
+}
+.down-bar .box{
+  display: flex;
+  color: #ffffff;
+  font-family: 'Rambhadra',sans-serif;
+}
+.down-bar .box img{
+  padding-right : 0.5rem;
+}
+.down-bar .visit{
+  margin-left : 2rem;
+}
+.down-bar .visit,.call{
+  margin-right: 5.5rem;
+  padding-right: 6rem;
+  border-right: 3.5px solid white;
+}
+.down-text h3{
+  font-size: 1.5rem;
+}
+.down-text p{
+  font-size: 1rem;
 }

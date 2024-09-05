@@ -21,8 +21,8 @@ nav{
   position: sticky;
   top : 0;
   z-index : 99999;
-  border-bottom: 2.5px solid #00D1FF;
-}
+  /* border-bottom: 2.5px solid #00D1FF;*/
+} 
 .logo{
   display: flex;
   justify-content: flex-start;
@@ -249,10 +249,77 @@ section{
 
 #testimonials{
   height : 100vh;
-  background-color: #d900ff;
   z-index: 999;
+  background-image: url("TestBack.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
 }
 footer{
   height : 100vh;
   color:#4CDFFF;
+ 
+}
+#testimonials .heading-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top:3rem;
+ 
+}
+#testimonials .heading{
+  width  : 18vw;
+}
+#testimonials h1{
+  text-align: center;
+  font-family: 'Racing Sans One',sans-serif;
+  font-size: 4rem;
+  font-weight: 400;
+  color: #ffffff;
+  margin : 2rem 0 ;
+  border-bottom: 4px solid #ffffff;
+  text-shadow: 2px 2px 4px #5858589b;
+} 
+#testimonials .box-container{
+  display : flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding : 0 12rem;
+}
+#testimonials .box-container .boxes1{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#testimonials  .box-container .boxes2{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#testimonials  .box{
+  width : 300px;
+  height : 200px;
+  /* border : 1px solid #C2C2C2; */
+  background-color: #ffffff;
+  margin : 1rem 2rem;
+  /* box-shadow: 0 0 15px #00060726; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#testimonials .box p{
+  text-align: left;
+  font-size: 0.8rem;
+  font-family: 'Racing Sans One',sans-serif;
+  background-color: brown;
+}
+#testimonials .box img {
+  margin: 0;
+  padding: 0;
+}
+
+#testimonials .box p {
+  margin-top: 0;
+  padding-top: 0;
 }

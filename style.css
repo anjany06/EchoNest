@@ -6,93 +6,22 @@
 body{
   background: #ffffff;
 }
-
-
-.circle{
-  position: absolute;
-  border-radius: 50%;
-  background: white;
-  animation: ripple 15s infinite;
-  box-shadow: 0px 0px 1px 0px #508fb9;
-}
-
-.small{
-  width: 200px;
-  height: 200px;
-  left: -100px;
-  bottom: -100px;
-}
-
-.medium{
-  width: 400px;
-  height: 400px;
-  left: -200px;
-  bottom: -200px;
-}
-
-.large{
-  width: 600px;
-  height: 600px;
-  left: -300px;
-  bottom: -300px;
-}
-
-.xlarge{
-  width: 800px;
-  height: 800px;
-  left: -400px;
-  bottom: -400px;
-}
-
-.xxlarge{
-  width: 1000px;
-  height: 1000px;
-  left: -500px;
-  bottom: -500px;
-}
-
-.shade1{
-  opacity: 0.2;
-}
-.shade2{
-  opacity: 0.5;
-}
-
-.shade3{
-  opacity: 0.7;
-}
-
-.shade4{
-  opacity: 0.8;
-}
-
-.shade5{
-  opacity: 0.9;
-}
-
-@keyframes ripple{
-  0%{
-    transform: scale(0.8);
-  }
-  
-  50%{
-    transform: scale(1.2);
-  }
-  
-  100%{
-    transform: scale(0.8);
-  }
+html{
+  scroll-behavior: smooth;
 }
 nav{
   display : flex;
   justify-content: space-around;
   align-items : center;
-  margin : 1.2rem 0;
+  margin-top : 1.2rem;
+  margin-bottom: 0;
   padding : 1rem 1 rem;
   font-family: 'jua',sans-serif;
   color : #00D1FF;
-
-
+  position: sticky;
+  top : 0;
+  z-index : 99999;
+  border-bottom: 2.5px solid #00D1FF;
 }
 .logo{
   display: flex;
@@ -112,6 +41,11 @@ nav .logo i {
   align-items : center;
   font-size: 1.3rem;
 }
+nav .navbar a{
+  text-decoration: none;
+  color:#00D1FF;
+}
+
 nav .navbar li{
   list-style-type: none;
   margin-left : 3rem;
@@ -141,12 +75,17 @@ section{
 }
 #home{
   height : 100vh;
+  background-image: url("bg1.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+  
 }
 #home .container{
  
   max-width : 100%;
   display: flex;
-  margin-top : 4rem;
+  margin-top : 1rem;
   margin-left : 4.5rem;
   margin-right : 4.5rem;
   margin-bottom: 0;
@@ -233,4 +172,27 @@ section{
 }
 .down-text p{
   font-size: 1rem;
+}
+#about{
+  height : 100vh;
+  z-index: 999;
+  background-color: #34DAFF;
+ 
+}
+#features{
+  height : 100vh;
+  z-index: 999;
+  background-image: url("back2.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+}
+#testimonials{
+  height : 100vh;
+  background-color: #d900ff;
+  z-index: 999;
+}
+footer{
+  height : 100vh;
+  color:#4CDFFF;
 }

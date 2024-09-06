@@ -322,7 +322,9 @@ footer{
   color : #757575;
   /* background-color : red; */
 }
-
+#testimonials .box .comma{
+  color : #FF3D00;
+}
 #testimonials .box .name {
   padding-bottom: 1rem;
 }

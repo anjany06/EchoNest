@@ -255,11 +255,7 @@ section{
   background-position: center;
   background-attachment: scroll;
 }
-footer{
-  height : 100vh;
-  color:#4CDFFF;
- 
-}
+
 #testimonials .heading-container{
   display: flex;
   justify-content: center;
@@ -339,3 +335,27 @@ footer{
 
 }
 
+footer{
+  height : 100vh;
+  background-color:#4CDFFF;
+ 
+}
+footer .logo-conatiner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+footer .logo-conatiner .logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+footer .logo-container .logo {
+  color : white;
+  font-family: 'Jua',sans-serif;
+  font-size: 3rem;
+}

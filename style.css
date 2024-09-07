@@ -179,6 +179,72 @@ section{
   background-color: #34DAFF;
  
 }
+.about-top{
+  display: flex;
+  flex-direction: column;
+}
+#about h1{
+  display: inline;
+  text-align: left;
+  margin-left: 2rem;
+  font-size : 2rem;
+  color : #fff;
+  font-family: 'Racing Sans One',sans-serif;
+  font-weight: 400;
+
+}
+#about h3{
+  display: inline;
+  text-align: left;
+  margin-left: 2rem;
+  font-size : 4rem;
+  color : #fff;
+  font-family: 'Racing Sans One',sans-serif;
+  font-weight: 400;
+  padding : 2rem 2rem;
+}
+.frame1{
+  height : 300px;
+  width : 600px;
+  background-color: #ffffff;
+  position : relative;
+  top : 20%;
+  left : 60%;
+}
+.frame2{
+  position: relative;
+  bottom: 22%;
+  left: 0.5%;
+  height : 300px;
+  width : 600px;
+  background-color: #ffffff;
+}
+.frame1 h2{
+  text-align: center;
+  padding: 0.8rem 0;
+  font-family: 'Rambhadra',sans-serif;
+  color : #00A38F;
+  font-size: 2rem;
+}
+.frame2 h2{
+  text-align: center;
+  padding: 0.8rem 0;
+  font-family: 'Rambhadra',sans-serif;
+  color : #00A38F;
+  font-size: 2rem;
+}
+.frame1 p{
+  font-size: 1.5rem;
+  padding : 0 1.5rem;
+  color : #686868;
+
+}
+.frame2 p{
+  font-size: 1.5rem;
+  padding : 0 1.5rem;
+  color : #686868;
+
+}
 #features{
   height : 100vh;
   z-index: 999;

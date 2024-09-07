@@ -195,12 +195,24 @@ section{
 }
 #about h3{
   display: inline;
-  text-align: left;
+  text-align: center;
   margin-left: 2rem;
   font-size : 4rem;
   color : #fff;
   font-family: 'Racing Sans One',sans-serif;
   font-weight: 400;
+  padding : 2rem 2rem;
+  padding-bottom: 0;
+}
+#about h4{
+  display: inline;
+  text-align: center;
+  margin-left: 2rem;
+  font-size : 4rem;
+  color : #fff;
+  font-family: 'Racing Sans One',sans-serif;
+  font-weight: 400;
+  padding-top: 0;
   padding : 2rem 2rem;
 }
 .frame1{
@@ -208,16 +220,19 @@ section{
   width : 600px;
   background-color: #ffffff;
   position : relative;
-  top : 20%;
+  top : 5%;
   left : 60%;
+  border-radius : 30px;
+
 }
 .frame2{
   position: relative;
-  bottom: 22%;
+  bottom: 37%;
   left: 0.5%;
   height : 300px;
   width : 600px;
   background-color: #ffffff;
+  border-radius : 30px;
 }
 .frame1 h2{
   text-align: center;
